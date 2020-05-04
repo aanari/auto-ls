@@ -23,7 +23,7 @@ auto-ls-ls () {
   [[ $AUTO_LS_NEWLINE != false ]] && echo ""
 }
 
-auto-ls-ld () {
+auto-ls-lsd () {
   lsd
   [[ $AUTO_LS_NEWLINE != false ]] && echo ""
 }
